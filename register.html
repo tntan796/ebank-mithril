@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="./src/styles/register.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="register__wrapper">
+        <div class="background__top"></div>
+        <div class="background__bottom"></div>
+        <div class="register">
+            <div class="register__header">
+                <img src="./src/images/register.png" alt="">
+                <h4>Tano Register</h4>
+            </div>
+            <form action="" class="register__form">
+                <div class="register__username form-group w-100">
+                    <input id="username" placeholder="User name" type="text" class="form-control w-100">
+                    <label for="username">User name</label>
+                </div>
+                <div class="register__email form-group w-100">
+                    <input placeholder="Email" id="email" class="form-control w-100">
+                    <label for="password">Email</label>
+                </div>
+                <div class="register__password form-group w-100">
+                    <input placeholder="Password" id="password" class="form-control w-100" type="password">
+                    <label for="password">Password</label>
+                </div>
+                <div class="register__password form-group w-100">
+                    <input placeholder="Retype Password" id="retype-password" class="form-control w-100" type="password">
+                    <label for="retype-password">Retype Password</label>
+                </div>
+                <div class="register__submit w-100 text-center">
+                    <button class="btn btn-primary register__submit mt-3 pl-4 pr-4">Register</button>
+                </div>
+                <div class="register__submit w-100 text-center mt-2">
+                    <p>Already have an account? <a href="login.html">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./src/js/register.js"></script>
+</body>
+</html>

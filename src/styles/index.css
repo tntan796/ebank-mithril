@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font: 14px;
+    color: rgb(1, 44, 109);
+    overflow-x: hidden;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background: rgb(243, 239, 239);
+}
+
+.icon {
+    height: 32px;
+    width: 32px;
+}
+
+/* Menu Nav bar */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: rgba(2, 122, 241, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 30px !important;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+/*content menu*/
+ 
+  /* Style the sidenav links and the dropdown button */
+  .body__menu a, .dropdown-btn {
+    padding: 10px 8px 10px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(139, 197, 245);
+    display: block;
+    border: none;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .body__menu li {
+    border-top: 1px solid rgba(184, 182, 182, 0.3);
+  }
+
+  .body__menu li:last-child {
+    border-bottom: 1px solid rgba(184, 182, 182, 0.3);
+  }
+
+
+  /* On mouse-over */
+  .body__menu a:hover, .dropdown-btn:hover {
+    color: #f1f1f1;
+    background: rgb(43, 157, 250);
+  }
+  
+  /* Main content */
+  .main {
+    padding-left: 250px; /* Same as the width of the sidenav */
+  }
+  
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container {
+    display: none;
+    padding-left: 8px;
+  }
+  
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 5px;
+    color: rgb(139, 197, 245);;
+  }
+
+
+
+/*page-header*/
+.avatar {
+  border-radius: 100%;
+}
+
+/*Page body*/
+.account-info {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 90, 180, 0.7);
+  font-weight: 600;
+}
+
+.card-name {
+  text-transform: uppercase;
+}
+
+.card-number {
+  margin: 10px 0;
+}
+
+.card-balances {
+}
+
+.money {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+
+.list-card-link {
+
+}
+
+.card-customize {
+    display: inline-grid;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+.list-card-link .card-link-wrapper {
+  display: inline-block;
+  width: 33.33%;
+  max-width: 256px;
+}
+
+.list-card-link .card-link-wrapper .card-link {
+  display: block;
+  background-color: #ffffff;
+  padding: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  text-transform: capitalize;
+  height: 100px;
+  overflow: hidden;
+}
+
+.list-card-link .card-link-wrapper .card-link .card-img img {
+  height: 30px;
+}
+
+.list-card-link .card-link-wrapper .card-link .card-name {
+  margin-top: 5px;
+}
+
+.shadow-btn {
+  box-shadow: 0 0 20px 0 rgb(0 0 0 / 3%);
+  cursor: pointer;
+}
+
+.shadow-btn:hover {
+  box-shadow: 0 6px 16px 0 rgb(173 138 216 / 40%);
+  text-decoration: none;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

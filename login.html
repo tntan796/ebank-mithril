@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="./src/styles/login.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="login__wrapper">
+        <div class="background__top"></div>
+        <div class="background__bottom"></div>
+        <div class="login">
+            <div class="login__header">
+                <img src="./src/images/login.png" alt="">
+                <h4>Tano Login</h4>
+            </div>
+            <form action="index.html" class="login__form">
+                <div class="login__username form-group w-100">
+                    <input id="username" placeholder="User name" type="text" class="form-control w-100">
+                    <label for="username">User name</label>
+                </div>
+                <div class="login__password form-group w-100">
+                    <input placeholder="Password" id="password" class="form-control w-100" type="password">
+                    <label for="password">Password</label>
+                </div>
+                <div class="login__method w-100 d-flex justify-content-between mt-3">
+                    <div class="login__remember">
+                        <input type="checkbox"> Remember me
+                    </div>
+                    <div class="login__signup">
+                        <a href="register.html">Sign Up</a>
+                    </div>
+                </div>
+                <div class="login__submit w-100 text-center">
+                    <button class="btn btn-primary login__submit mt-3 pl-4 pr-4">Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./src/js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(1, 44, 109);
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.register__wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.background__top {
+    height: 40%;
+    width: 100%;
+    background: rgba(16, 135, 253, 1);
+}
+
+.background__bottom {
+    height: 60%;
+    width: 100%;
+    background: rgba(228, 221, 221, 0.8);
+}
+
+.register {
+    position: fixed;
+    top: 10%;
+    width: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 2em;
+}
+
+.register__header {
+    width: 100%;
+    text-align: center;
+}
+
+.register__header img {
+    height: 100px;
+    margin: 0 auto;
+}
+
+.register__header h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: dodgerblue;
+}
+
+.register__form {
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+.form-group {
+    margin: 10px 0;
+    position: relative;
+    width: 300px;
+  }
+  .form-control {
+    background: transparent;
+    border: none;
+    border-bottom: solid 1px #ccc;
+    padding: 20px 2px 5px;
+    transition: padding 0.4s;
+    width: 80%;
+  }
+  .form-control:placeholder-shown + label {
+    color: #aaa;
+    font-size: 14px;
+    top: 15px;
+  }
+  .form-control:focus + label,
+  label {
+    color: #4476bd;
+    font-size: 12px;
+    pointer-events: none;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    transition: top 0.4s, left 0.4s, font-size 0.4s;
+  }
+  .form-control::placeholder{
+    color: transparent;
+    display:none;
+  }
+  .form-control:focus,
+  .form-control:not(:placeholder-shown) {
+    border-bottom: solid 1px #4476bd;
+    outline: none;
+  }
