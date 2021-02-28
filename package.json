@@ -1,0 +1,28 @@
+{
+  "name": "ManageBookMithjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mIndex.js",
+  "scripts": {
+    "start": "webpack ./src/mithrils/main.js --output-path ./src/js --mode production --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tntan796/ebank-mithril.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tntan796/ebank-mithril/issues"
+  },
+  "homepage": "https://github.com/tntan796/ebank-mithril#readme",
+  "dependencies": {
+    "mithril": "^2.0.4"
+  },
+  "devDependencies": {
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0"
+  }
+}
