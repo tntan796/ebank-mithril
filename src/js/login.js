@@ -137,11 +137,6 @@ var Login = {
     }
 }
 
-
 document.addEventListener("DOMContentLoaded", function(event) { 
   m.mount(document.body, Login);
 });
-
-// setTimeout(() => {
-  
-// }, 1000);

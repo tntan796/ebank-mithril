@@ -37,7 +37,7 @@ module.exports = {
                               )
                             ]
                           ),
-                          m("a", {"class":"menu-item","href":"/bill"},
+                          m("a", {"class":"menu-item","href":"#!/bill"},
                             [
                               m("div", {"class":"menu-icon"}),
                               m("div", {"class":"menu-name"}, 
